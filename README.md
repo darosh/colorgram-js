@@ -14,7 +14,7 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 - identical output for rotated images
 - sampled by top 2 bits of 6 groups: R, G, B, H, L, and [luminance](https://en.wikipedia.org/wiki/Luma_%28video%29#Use_of_luminance)
 - calculates average per group
-- fixed memory footprint, samples using 2 ^ 6 * 4 = 16384 bytes
+- fixed memory footprint, samples using 2 (bits) ^ 6 (groups) * 4 (RGB + count) * 4 (Uint32) = 65536 bytes
 - usually generates small (~16 colors) palette of main colors
 - supports RGB and RGBA input pixel array (compatible with [ImageData.data](https://developer.mozilla.org/en-US/docs/Web/API/ImageData/data))
 - using [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)
