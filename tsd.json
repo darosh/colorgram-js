@@ -1,0 +1,12 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node-0.10.d.ts": {
+      "commit": "304a25197990aeabf8e9fd030ad927ed011b9e83"
+    }
+  }
+}

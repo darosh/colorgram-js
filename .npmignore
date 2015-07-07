@@ -1,0 +1,13 @@
+node_modules
+doc/
+gulp_tasks/
+test/
+
+.idea/
+
+.editorconfig
+.gitattributes
+.gitignore
+.travis.yml
+
+tslint.json
