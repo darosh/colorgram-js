@@ -9,7 +9,7 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 ## Features
 
 - small size, 1kB (minified + gzipped)
-- pretty fast, 512&times;512 pixels in ~50ms, 340&times;340 pixels in ~15ms
+- pretty fast, 512&times;512 pixels in ~50ms, 340&times;340 pixels in ~15ms (~6&times; slower on mobile)
 - scans every pixel
 - identical output for rotated images
 - sampled by top 2 bits of 6 groups: R, G, B, H, L, and [luminance](https://en.wikipedia.org/wiki/Luma_%28video%29#Use_of_luminance)
