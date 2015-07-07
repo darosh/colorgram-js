@@ -20,6 +20,7 @@ https://cdn.rawgit.com/darosh/colorgram-js/master/test/bowser_test.html
 
 - https://github.com/lokesh/color-thief
 - https://github.com/leeoniya/RgbQuant.js
+- https://gist.github.com/nrabinowitz/1104622
 - https://github.com/igor-bezkrovny/image-quantization
 - http://members.ozemail.com.au/~dekker/NEUQUANT.HTML
 - https://pngquant.org/
