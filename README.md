@@ -29,3 +29,8 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 ## TypeScript documentation
 
 [doc/index.html](https://rawgit.com/darosh/colorgram-js/master/doc/index.html)
+
+## Install
+
+```npm install colorgram```
+
