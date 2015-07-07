@@ -31,10 +31,6 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 - [pngquant](https://pngquant.org/)
 - [Adobe Color CC](https://color.adobe.com/create/image/)
 
-## TypeScript documentation
-
-[doc/index.html](https://rawgit.com/darosh/colorgram-js/master/doc/index.html)
-
 ## Install
 
 ```npm install colorgram```
@@ -42,6 +38,10 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 ## Usage
 
 See [test](https://github.com/darosh/colorgram-js/tree/master/test) folder.
+
+## TypeScript documentation
+
+[doc/index.html](https://rawgit.com/darosh/colorgram-js/master/doc/index.html)
 
 ## License
 
