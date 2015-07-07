@@ -15,6 +15,7 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 - sampled by top 2 bites of 6 group R, G, B, H, L, [luminance](https://en.wikipedia.org/wiki/Luma_%28video%29#Use_of_luminance)
 - calculates average per group
 - fixed memory footprint, samples using 2 ^ 6 * 4 = 16384 bytes
+- usually generates small (~16 colors) palette of main colors
 - no native dependencies
 
 ## Similar stuff
