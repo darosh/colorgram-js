@@ -18,14 +18,14 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 
 ## Similar stuff
 
-- https://github.com/lokesh/color-thief
-- https://github.com/leeoniya/RgbQuant.js
-- https://gist.github.com/nrabinowitz/1104622
-- https://github.com/igor-bezkrovny/image-quantization
-- http://members.ozemail.com.au/~dekker/NEUQUANT.HTML
-- https://pngquant.org/
-- https://color.adobe.com/create/image/
+- [lokesh/color-thief](https://github.com/lokesh/color-thief)
+- [leeoniya/RgbQuant.js](https://github.com/leeoniya/RgbQuant.js)
+- [nrabinowitz/quantize.js](https://gist.github.com/nrabinowitz/1104622)
+- [igor-bezkrovny/image-quantization](https://github.com/igor-bezkrovny/image-quantization)
+- [NeuQuant](http://members.ozemail.com.au/~dekker/NEUQUANT.HTML)
+- [pngquant](https://pngquant.org/)
+- [Adobe Color CC](https://color.adobe.com/create/image/)
 
 ## TypeScript documentation
 
-https://rawgit.com/darosh/colorgram-js/master/doc/index.html
+[doc/index.html](https://rawgit.com/darosh/colorgram-js/master/doc/index.html)
