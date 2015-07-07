@@ -1,7 +1,7 @@
 {
   "name": "colorgram",
   "description": "Color extraction library. In TypeScript/JavaScript. For browser/server.",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "author": {
     "name": "Jan Forst",
     "email": "ensonador@gmail.com",
