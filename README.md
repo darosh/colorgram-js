@@ -2,6 +2,10 @@
 
 TypeScript color extraction library. In TypeScript/JavaScript. For browser/server.
 
+## Demo
+
+https://cdn.rawgit.com/darosh/colorgram-js/master/test/bowser_test.html
+
 ## Features
 
 - small size, 1kB (minified + gzipped)
@@ -12,7 +16,7 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 - calculates average per group
 - fixed memory footprint, samples using 2 ^ 6 * 4 = 16384 bytes
 
-# Similar stuff
+## Similar stuff
 
 - https://github.com/lokesh/color-thief
 - https://github.com/leeoniya/RgbQuant.js
@@ -20,3 +24,7 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 - http://members.ozemail.com.au/~dekker/NEUQUANT.HTML
 - https://pngquant.org/
 - https://color.adobe.com/create/image/
+
+## TypeScript documentation
+
+https://cdn.rawgit.com/darosh/colorgram-js/master/doc/index.html
