@@ -28,4 +28,4 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 
 ## TypeScript documentation
 
-https://cdn.rawgit.com/darosh/colorgram-js/master/doc/index.html
+https://rawgit.com/darosh/colorgram-js/master/doc/index.html
