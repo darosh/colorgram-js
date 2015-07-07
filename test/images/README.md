@@ -1,0 +1,3 @@
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Test Images for Colorgram</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/darosh" property="cc:attributionName" rel="cc:attributionURL">Jan Forst</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/darosh/colorgram-js/tree/master/test/images" rel="dct:source">https://github.com/darosh/colorgram-js/tree/master/test/images</a>.
