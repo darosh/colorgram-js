@@ -34,3 +34,6 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 
 ```npm install colorgram```
 
+## Usage
+
+See [test](https://github.com/darosh/colorgram-js/tree/master/test) folder
