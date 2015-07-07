@@ -1,6 +1,6 @@
 # Colorgram [![Build Status](https://travis-ci.org/darosh/colorgram-js.svg)](https://travis-ci.org/darosh/colorgram-js)
 
-TypeScript color extraction library. In TypeScript/JavaScript. For browser/server.
+Color extraction library. In TypeScript/JavaScript. For browser/server.
 
 ## Demo
 
