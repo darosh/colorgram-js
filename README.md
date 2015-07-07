@@ -16,6 +16,7 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 - calculates average per group
 - fixed memory footprint, samples using 2 ^ 6 * 4 = 16384 bytes
 - usually generates small (~16 colors) palette of main colors
+- supports RGB and RGBA input pixel array (compatible with [ImageData.data](https://developer.mozilla.org/en-US/docs/Web/API/ImageData/data))
 - using [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)
 - no native dependencies
 
