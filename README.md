@@ -4,7 +4,7 @@ TypeScript color extraction library. In TypeScript/JavaScript. For browser/serve
 
 ## Demo
 
-[test/bowser_test.html](https://cdn.rawgit.com/darosh/colorgram-js/ff4c279c8ca76ca3497a58e55ea173e70d76c88c/test/browser_test.html)
+[test/browser_test.html](https://cdn.rawgit.com/darosh/colorgram-js/ff4c279c8ca76ca3497a58e55ea173e70d76c88c/test/browser_test.html)
 
 ## Features
 
