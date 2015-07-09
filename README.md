@@ -4,7 +4,7 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 
 ## Demo
 
-[test/browser_test.html](https://cdn.rawgit.com/darosh/colorgram-js/73c4e209715ac98e1a92343f1b09749b68ce7cac/test/browser_test.html) (RawGit CDN temporary link, bookmarking not recommended)
+[test/browser_test.html](http://darosh.github.io/colorgram-js/test/browser_test.html)
 
 ## Features
 
@@ -41,7 +41,7 @@ See [test](https://github.com/darosh/colorgram-js/tree/master/test) folder.
 
 ## TypeScript documentation
 
-[doc/index.html](https://rawgit.com/darosh/colorgram-js/master/doc/index.html)
+[http://darosh.github.io/colorgram-js/doc/](http://darosh.github.io/colorgram-js/doc/)
 
 ## License
 

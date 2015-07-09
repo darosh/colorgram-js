@@ -16,3 +16,5 @@ gulp.task('build', function (done) {
 });
 
 gulp.task('default', ['tslint', 'doc', 'build']);
+
+gulp.task('deploy', ['default'], getTask('gh-pages'));

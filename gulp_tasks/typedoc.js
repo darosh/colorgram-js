@@ -4,7 +4,7 @@ module.exports = function (gulp, plugins) {
             .src('src/**/*.ts')
             .pipe(plugins.typedoc({
                 module: 'commonjs',
-                out: 'doc',
+                out: 'deploy/doc',
                 mode: 'file',
                 name: 'Colorgram',
                 readme: 'none'
