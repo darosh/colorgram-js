@@ -186,6 +186,7 @@
 
 	function processImage(imagePath, prepend) {
 		var element = document.createElement('div');
+		element.className = 'block';
 
 		if (prepend) {
 			root.insertBefore(element, root.children[1]);
@@ -197,11 +198,9 @@
 			var start = new Date().getTime();
 			var stats = Colorgram.extract(img);
 			var elapsed = new Date().getTime() - start;
-			element.className = 'block';
 			element.appendChild(img.canvas);
 			element.appendChild(statsImage(stats, false));
 			element.appendChild(statsImage(Colorgram.sortByHsl(stats), true));
-
 			code('Elapsed time: ' + elapsed + 'ms', element);
 		})
 	}
