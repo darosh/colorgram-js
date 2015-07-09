@@ -185,20 +185,19 @@
 	}
 
 	function processImage(imagePath, prepend) {
+		var element = document.createElement('div');
+
+		if (prepend) {
+			root.insertBefore(element, root.children[1]);
+		} else {
+			root.appendChild(element);
+		}
+
 		loadImage(imagePath, function (img) {
 			var start = new Date().getTime();
 			var stats = Colorgram.extract(img);
 			var elapsed = new Date().getTime() - start;
-			var element = document.createElement('div');
-
-			if (prepend) {
-				root.insertBefore(element, root.children[1]);
-			} else {
-				root.appendChild(element);
-			}
-
 			element.className = 'block';
-
 			element.appendChild(img.canvas);
 			element.appendChild(statsImage(stats, false));
 			element.appendChild(statsImage(Colorgram.sortByHsl(stats), true));
