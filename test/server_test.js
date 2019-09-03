@@ -11,10 +11,10 @@ describe('Colorgram', function () {
     })
   })
 
-  it('should extract pastel color', function (done) {
-    load('./test/images/pastel.png', function (img) {
+  it('should extract yellow color', function (done) {
+    load('./test/images/stone.png', function (img) {
       var colors = colorgram.extract(img, 1)
-      assert.deepEqual(colors[0], [220, 69, 86, 1])
+      assert.deepEqual(colors[0], [254, 245, 159, 1])
       done()
     })
   })
