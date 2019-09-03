@@ -48,7 +48,8 @@
     "deploy": "gh-pages -d deploy",
     "prebuild": "del-cli dist",
     "doc": "typedoc --readme none --mode file --out deploy/doc",
-    "test": "tsc && mocha"
+    "pretest": "npm run build",
+    "test": "mocha"
   },
   "typings": "dist/types/index.d.ts"
 }
