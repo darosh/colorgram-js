@@ -1,7 +1,7 @@
 {
   "name": "colorgram",
   "description": "Color extraction library. In TypeScript/JavaScript. For browser/server.",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": {
     "name": "Jan Forst",
     "email": "ensonador@gmail.com",
@@ -9,24 +9,23 @@
   },
   "bugs": "https://github.com/darosh/colorgram-js/issues",
   "devDependencies": {
-    "browserify": "^10.2.4",
-    "gulp": "^3.9.0",
-    "gulp-gh-pages": "^0.5.2",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-tslint": "^2.0.0",
-    "gulp-typedoc": "^1.1.0",
-    "gulp-typescript": "^2.7.8",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.6",
-    "merge2": "^0.3.6",
-    "mocha": "^2.2.5",
-    "pngjs": "^0.4.0",
-    "run-sequence": "^1.1.1",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "gh-pages": "^2.1.1",
+    "cpy-cli": "^2.0.0",
+    "del-cli": "^2.0.0",
+    "mocha": "^6.2.0",
+    "pngjs": "^3.4.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.24.0",
+    "tslint": "^5.19.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.2"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "homepage": "https://github.com/darosh/colorgram-js",
   "keywords": [
     "browser",
@@ -38,8 +37,18 @@
   ],
   "license": "MIT",
   "main": "dist/colorgram.js",
+  "meta": {
+    "namespace": "Colorgram"
+  },
+  "module": "dist/lib/index.js",
   "repository": "darosh/colorgram-js",
   "scripts": {
+    "build": "tsc && rollup -c rollup.config.js",
+    "predeploy": "del-cli deploy && cpy --parents dist/**/* deploy && cpy --parents test/**/* deploy && npm run doc",
+    "deploy": "gh-pages -d deploy",
+    "prebuild": "del-cli dist",
+    "doc": "typedoc --readme none --mode file --out deploy/doc",
     "test": "mocha"
-  }
+  },
+  "typings": "dist/types/index.d.ts"
 }

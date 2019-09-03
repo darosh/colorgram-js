@@ -8,13 +8,14 @@ Color extraction library. In TypeScript/JavaScript. For browser/server.
 
 ## Features
 
+
 - small size, 1kB (minified + gzipped)
 - pretty fast, 512&times;512 pixels in ~50ms, 340&times;340 pixels in ~15ms (~6&times; slower on mobile)
 - scans every pixel
 - identical output for rotated images
-- sampled by top 2 bits of 6 groups: R, G, B, H, L, and [luminance](https://en.wikipedia.org/wiki/Luma_%28video%29#Use_of_luminance)
+- sampled by top 2 bits of 3 groups: H, L, and [luminance](https://en.wikipedia.org/wiki/Luma_%28video%29#Use_of_luminance)
 - calculates average per group
-- fixed memory footprint, samples using 2 (bits) ^ 6 (groups) * 4 (RGB + count) * 4 (Uint32) = 65536 bytes
+- fixed memory footprint, samples using 2 (bits) ^ 3 (groups) * 4 (RGB + count) * 4 (Uint32) = 65536 bytes
 - usually generates small (~16 colors) palette of main colors
 - supports RGB and RGBA input pixel array (compatible with [ImageData.data](https://developer.mozilla.org/en-US/docs/Web/API/ImageData/data))
 - using [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)
@@ -46,3 +47,4 @@ See [test](https://github.com/darosh/colorgram-js/tree/master/test) folder.
 ## License
 
 [MIT](https://github.com/darosh/colorgram-js/tree/master/LICENSE)
+    
